@@ -25,7 +25,7 @@ Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
 * Pragmatische insteek, alleen formeel wanneer het nodig is
 * Ook een reeële manier om weer te verlaten
 * Garanties ten opzichte van elkaar
-* Bouwblokken hebben altijd een [publiccode.yaml](https://standard.publiccode.net/)
+* Bouwblokken hebben altijd een [publiccode.yaml](https://yml.publiccode.tools/)
 * Bouwblokken staan bij voorkeur op [github.com/openwebconcept](https://github.com/openwebconcept)
 * Losse componenent:
 	* Code deelbaar
