@@ -1,4 +1,4 @@
-# CONCEPT VERSIE : Codebeheer Open Webconcept
+# Codebeheer Open Webconcept
 Tenbehoeve van het beheer van de code is het noodzakelijk om afspraken te maken, zodat iedereen weet waar men aan toe is.
 
 ## Gedachte Open Webconcept
@@ -25,7 +25,8 @@ Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
 * Pragmatische insteek, alleen formeel wanneer het nodig is
 * Ook een reeële manier om weer te verlaten
 * Garanties ten opzichte van elkaar
-* WordPress installer : https://github.com/VNG-Realisatie/OpenWebconcept (moet https://github.com/OpenWebconcept/  worden)
+* Bouwblokken hebben altijd een [publiccode.yaml](https://yml.publiccode.tools/)
+* Bouwblokken staan bij voorkeur op [github.com/openwebconcept](https://github.com/openwebconcept)
 * Losse componenent:
 	* Code deelbaar
 	* Zelfde licentie
@@ -36,27 +37,30 @@ Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
 
 ## Invulling Bouwblokken
 Per bouwblok:
-* Te vinden op https://github.com/organizations/OpenWebconcept/
+* Te vinden op https://github.com/OpenWebconcept/
 * Licentie is EUPL
 * Eén repository met die bloknaam
 * Wordpress notificatie wanneer er een update is
 * Gemeente is beheerder bouwblok
 * Leverancier plaats de code en maakt doet de aanpassingen (kan natuurlijk een gemeente zijn)
+* Aanpassingen worden aangeleverd op basis van Pull Requests en bij voorkeur door een andere leverancier/gemeente goedgekeurd
 * Dat de issues/changes worden opgepakt
-* Installeerbaar via de  Open Webconcept plugin structuur
+* Installeerbaar via de WordPress plugin structuur
 * De blokken kunnen met elkaar draaien op dezelfde server maar mogen ook los geinstalleerd worden
 
 ## Beheer organisatie
-Open Webconcept Foundation : 
+
+### Open Webconcept Foundation
 * Beheert https://github.com/OpenWebconcept
 * Beheert afspraken (https://github.com/OpenWebconcept/Afspraken/)
-* Bijhouden wordpress plugin lijst (https://github.com/VNG-Realisatie/OpenWebConcept/blob/master/components.json)
 * Aanmaken repositories
 * Rechten  aan gemeenten geven op repository
-Gemeente:
+
+### Gemeente
 * Rechten aan leverancier geven op repository
 * Garant staan voor de repository
-Leverancier
+
+### Leverancier
 * Plaatst de code in de betreffende  repository
 * Zorgt dat de bugs worden opgelost
 * Handelt de issues / changes af
